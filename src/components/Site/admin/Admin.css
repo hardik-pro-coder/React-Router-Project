@@ -1,0 +1,275 @@
+/* Admin CSS */
+
+.dashboard-content {
+    display: flex;
+    gap: 25px;
+    margin-top: 2%;
+}
+
+.dashboard-contentA {
+    width: 40%;
+}
+
+.dashboard-contentA-box1 {
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: #DBE2EF;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-contentA-box2 {
+    width: 100%;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: #DBE2EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dashboard-contentB {
+    width: 60%;
+}
+
+.dashboard-contentB-box1 {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.dashboard-contentB-box1-a {
+    width: 25%;
+    height: 30vh;
+    background-color: #DBE2EF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard-contentB-box1-a img {
+    width: 50%;
+    height: 50%;
+    margin: 15% 0;
+    border-radius: 5px;
+}
+.dashboard-contentB-box1-a div {
+    background-color: #FFF0CE;
+    border-radius: 5px;
+    width: 80%;
+    padding: 1%;
+    font-size: 14px;
+}
+
+
+.dashboard-contentB-box1-b {
+    width: 25%;
+    height: 30vh;
+    background-color: #DBE2EF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard-contentB-box1-b img {
+    width: 50%;
+    height: 50%;
+    margin: 15% 0;
+    border-radius: 5px;
+}
+.dashboard-contentB-box1-b div {
+    background-color: #FFF0CE;
+    border-radius: 5px;
+    width: 80%;
+    padding: 1%;
+    font-size: 14px;
+}
+
+
+.dashboard-contentB-box1-c {
+    width: 25%;
+    height: 30vh;
+    background-color: #DBE2EF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard-contentB-box1-c img {
+    width: 50%;
+    height: 50%;
+    margin: 15% 0;
+    border-radius: 5px;
+}
+.dashboard-contentB-box1-c div {
+    background-color: #FFF0CE;
+    border-radius: 5px;
+    width: 80%;
+    padding: 1%;
+    font-size: 14px;
+}
+
+
+.dashboard-contentB-box1-d {
+    width: 25%;
+    height: 30vh;
+    background-color: #DBE2EF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard-contentB-box1-d img {
+    width: 50%;
+    height: 50%;
+    margin: 15% 0;
+    border-radius: 5px;
+}
+.dashboard-contentB-box1-d div {
+    background-color: #FFF0CE;
+    border-radius: 5px;
+    width: 80%;
+    padding: 1%;
+    font-size: 14px;
+}
+
+.dashboard-contentB-box2 {
+    width: 100%;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: #DBE2EF;
+}
+
+.dashboard-contentB-box2 img{
+    width: 95%;
+    padding: 2.5%;
+    height: 40vh;
+}
+
+
+
+/* Hover Effects */
+
+.dashboard-contentA-box1:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.dashboard-contentA-box2:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.dashboard-contentB-box1-a {
+    &:hover {
+        background-color: #1fba8e;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.5s;
+
+        div {
+            background-color: black;
+            color: white;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.dashboard-contentB-box1-b {
+    &:hover {
+        background-color: #f5584d;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.5s;
+
+        div {
+            background-color: black;
+            color: white;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.dashboard-contentB-box1-c {
+    &:hover {
+        background-color: #b7a9eb;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.5s;
+
+        div {
+            background-color: black;
+            color: white;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.dashboard-contentB-box1-d {
+    &:hover {
+        background-color: #36a11e;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.5s;
+
+        div {
+            background-color: black;
+            color: white;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.dashboard-contentB-box2:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+
+
+/* Logic CSS */
+
+
+/* Employee CSS */
+.dashboard-contentA-box1 div{
+    width: 80%;
+    height: auto;
+    background-color: black;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dashboard-contentA-box1 h1{
+    color: white;
+}
+
+.dashboard-contentA-box2 div{
+    width: 80%;
+    height: auto;
+    background-color: black;
+    padding: 5% 1%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.dashboard-contentA-box2 div ol li{
+    color: white;
+    margin: 0 35%;
+    font-size: 24px;
+    font-weight: bold;
+}

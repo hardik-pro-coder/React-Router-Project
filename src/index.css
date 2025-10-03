@@ -1,0 +1,109 @@
+/* index CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.main-site{
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar CSS */
+
+.sidebar{
+    width: 15%;
+    height: auto;
+    background-color: #112D4E;
+    text-align: center;
+    padding: 1%;
+}
+
+.sidebar-header{
+    background-color: #DBE2EF;
+    border-radius: 10px;
+    height: 9vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-content{
+    margin-top: 20%;
+    background-color: #3F72AF;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebar-content-header{
+    background-color: #FFF0CE;
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.sidebar-content-header:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px #DBE2EF;
+    transition: 0.5s;
+}
+
+
+/* Dashboard CSS */
+
+.dashboard{
+    width: 85%;
+    height: auto;
+    background-color: #3F72AF;
+    text-align: center;
+    padding: 1%;
+}
+
+.dashboard-header-box{
+    background-color: #DBE2EF;
+    border-radius: 10px;
+    width: 20%;
+    margin: auto;
+    height: 8vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.logout{
+    width: auto;
+    height: 7%;
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.logout button{
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
